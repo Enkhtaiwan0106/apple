@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+}
+.navbar {
+  background-color: #f5f5f7;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100vw;
+}
+
+.navbar button {
+  font-size: 12px;
+  display: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+.mur5 {
+  background-color: #000000;
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  width: 100vw;
+}
