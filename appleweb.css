@@ -492,3 +492,30 @@ main-nav button:hover {
 .active-tseg {
   opacity: 0;
 }
+.tiles {
+  display: grid;
+
+  gap: 20px;
+}
+@media (max-width: 1100px) {
+  .cards-grid.featured {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 640px) {
+  .main-nav {
+    display: none;
+  }
+  .cards-grid.featured {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 {
+    font-size: 26px;
+  }
+  .icon-item {
+    min-width: 78px;
+  }
+}
